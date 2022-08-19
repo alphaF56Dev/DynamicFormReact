@@ -1,8 +1,12 @@
+import Introduction from './components/Introduction';
 import NavBarMenu from './components/NavBarMenu';
 
 function App() {
   return (
-    <NavBarMenu />
+    <div>
+      <NavBarMenu />
+      <Introduction />
+    </div>
   );
 }
 
