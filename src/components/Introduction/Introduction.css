@@ -60,7 +60,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px){ /*Este apartado es para definir que cuando el ancho sea menor o igual a 768 aplique este estilo*/
     .introduction .container-actions{
         justify-content: space-between;
     }
