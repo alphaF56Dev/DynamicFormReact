@@ -1,0 +1,22 @@
+.card-sport{
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.card-sport.selected-card .card{
+    border: 1px solid #000;
+    box-shadow: opx 4px 10px -3px rgb(117, 117, 117);
+}
+
+.card-sport .card-body .card-title{
+    font-size: 50px;
+}
+
+.card-sport .card-body .card-subtitle{
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* .card{
+    height: 200px !important;
+} */
