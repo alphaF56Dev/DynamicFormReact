@@ -16,7 +16,7 @@ export default function Services() {
         },
         {
             title: "Mobile Application Development", 
-            subtitle: "I learn about mobile development",
+            subtitle: "I learned about mobile development",
             image: devMovil,
             footer: "Go to the certificate ➡️",
             link: "!#"
@@ -39,7 +39,7 @@ export default function Services() {
                 <Col xs={12} md={8}>
                     <h2 className='text-center'>Services</h2>
                     <h4 className='pb-3 text-center'>Some projects with which I have practiced</h4> {/*pb= padding bottom*/}
-                    <Row xs={12} md={3} className='g-4 mt-4'>
+                    <Row xs={1} md={3} className='g-4 mt-4'>
                         {arrayServices.map((service, index)=>(
                             <CardService service={service} key={index} />
                         ))}                        
