@@ -21,7 +21,7 @@ export default function SecondStep() {
 
   const changeAdditionalAct = (e) =>{
     const newActivity = e.target.value;
-    localStorage.setItem('addtionalActivity', newActivity);
+    localStorage.setItem('additionalActivity', newActivity);
   };
 
   return (
